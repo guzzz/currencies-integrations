@@ -3,7 +3,7 @@ repo_url: https://github.com/guzzz/currencies-integrations
 repo_name: guzzz/currencies-integrations
 
 theme:
-  name: material
+  name: mkdocs
   language: pt-BR
   logo: assets/logo_d1.png
   favicon: assets/logo_d1.png
