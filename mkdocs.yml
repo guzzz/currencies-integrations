@@ -1,0 +1,15 @@
+site_name: Cotações Diversas
+repo_url: https://github.com/guzzz/currencies-integrations
+repo_name: guzzz/currencies-integrations
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo_d1.png
+  favicon: assets/logo_d1.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
