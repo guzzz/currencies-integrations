@@ -15,7 +15,12 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
+  - macros
   - mkdocstrings:
       handlers:
         python:
           paths: [currencies_integrations]
+
+extra:
+  commands:
+    run: poetry run cotacoes
