@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Daniel Guzman <dguzzz101@gmail.com>"]
 readme = "README.md"
+packages = [{include = "currencies_integrations"}]
 
 [tool.poetry.scripts]
 cotacoes = "currencies_integrations.cli:app"
