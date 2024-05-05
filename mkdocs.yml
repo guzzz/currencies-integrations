@@ -23,4 +23,4 @@ plugins:
 
 extra:
   commands:
-    run: poetry run cotacoes
+    run: cotacoes
