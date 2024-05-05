@@ -8,6 +8,10 @@ def comercial() -> dict[str, str]:
     Returns:
         Um dicionário com o valor da cotação. Ex.: {'value': 5.00000}
 
+    Raises:
+        ConnectionError: Caso não seja possível conectar com a API que nos daria o resultado.
+        MissingSchema: Caso a url da API terceira esteja equivocada.
+
     Examples:
         >>> type(comercial())
         <class 'dict'>
