@@ -1,10 +1,22 @@
 [tool.poetry]
 name = "currencies-integrations"
 version = "0.1.0"
-description = ""
+description = "Projeto para facilitar na busca por cotações de recursos financeiros."
+license = "MIT License"
 authors = ["Daniel Guzman <dguzzz101@gmail.com>"]
 readme = "README.md"
 packages = [{include = "currencies_integrations"}]
+classifiers = [
+    "Topic :: Office/Business :: Financial",
+    "Environment :: Console",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.urls]
+"Documentação" = "https://currencies-integrations.readthedocs.io/en/latest/"
+"Código" = "https://github.com/guzzz/currencies-integrations"
 
 [tool.poetry.scripts]
 cotacoes = "currencies_integrations.cli:app"
@@ -50,3 +62,4 @@ docs = "mkdocs serve"
 pre_test = "task lint"
 test = "pytest -s -x --cov=currencies_integrations -vv"
 post_test = "coverage html"
+publish = "poetry publish -u __token__ -p $CURRENCIES_INTEGRATIONS_TOKEN"
