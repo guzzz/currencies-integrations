@@ -1,8 +1,5 @@
 from .connection import APIConnection
-
-
-def generate_average_value(high, low):
-    return round(((float(high) + float(low)) / 2), 5)
+from .utils import *
 
 
 def dolar_comercial() -> dict[str, str]:
