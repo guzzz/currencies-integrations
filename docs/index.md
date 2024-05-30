@@ -20,6 +20,6 @@ O formato retornado será bem simples.
 ┏━━━━━━━━━━━━━━━┓
 ┃ USD Comercial ┃
 ┡━━━━━━━━━━━━━━━┩
-│ R$ 5.1125     │
+│ R$ 5.12       │
 └───────────────┘
 ```

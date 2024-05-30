@@ -1,5 +1,6 @@
 site_name: Cotações Diversas
 site_url: https://github.com/guzzz/currencies-integrations
+
 repo_url: https://github.com/guzzz/currencies-integrations
 repo_name: guzzz/currencies-integrations
 
@@ -11,6 +12,8 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - admonition
+  - pymdownx.tasklist
 
 extra_css:
   - stylesheets/extra.css
@@ -25,3 +28,6 @@ plugins:
 extra:
   commands:
     run: cotacoes
+
+watch:
+  - currencies_integrations
