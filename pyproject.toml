@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "currencies-integrations"
-version = "0.1.0"
+version = "0.1.1"
 description = "Projeto para facilitar na busca por cotações de recursos financeiros."
 license = "MIT License"
 authors = ["Daniel Guzman <dguzzz101@gmail.com>"]
